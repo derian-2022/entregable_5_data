@@ -1,0 +1,30 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/*-----RESET-----*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3, h4, p, ul{
+    font-size: 1.3rem; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    border: none;
+} 
+
+input {
+    outline: 0;
+}

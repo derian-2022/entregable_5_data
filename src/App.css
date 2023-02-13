@@ -1,0 +1,171 @@
+.app_form {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0005;
+    backdrop-filter: blur(2px);
+    transform: scale(0);
+    transition: transform 200ms ease;
+}
+
+.app_title {
+    text-align: center;
+    margin-bottom: .7em;
+    font-size: 2.5rem;
+    
+}
+
+.app_form-visible {
+    transform: scale(1);
+}
+
+.form {
+    padding: 1.2em;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    height: max-content;
+    border-radius: .7em;
+    position: relative;
+}
+
+.form_title {
+    font-size: 1.5rem;
+    margin-bottom: 0.6em;
+}
+
+.form_x {
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: red;
+    transition: transform 100ms ease;
+}
+
+.form_x:hover {
+    transform: scale(1.5);
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    margin-bottom: 0.8em;
+}
+
+.form_label {
+    color:rgb(0, 0, 0);
+    padding-left: 1em;
+}
+
+.form_input {
+    padding: .4em .8em;
+    font-family: inherit;
+}
+
+.form_btn {
+    width: 100%;
+    padding: .8em;
+    background-color: #475678; 
+    color: white; 
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.app_h1_btn {
+    padding: 2%;
+    width: 100%;
+    gap: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app_btn-form { 
+    width: 150px;
+    font-size: .8rem;
+    margin-bottom: .1em;
+    padding: 1em;
+    background-color: #475678; 
+    color: white; 
+    border-radius: .3em;
+    cursor: pointer;
+   
+}
+
+/*****************/
+
+
+
+.app_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 80px;
+    justify-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card {
+   padding: 1.2em;
+   width: 100%;
+   max-width: 350px;
+   background-color: rgb(230, 230, 223);
+   border-radius: 1em;
+}
+
+.card_name {
+    font-size: 1.5rem;
+}
+
+.card_list {
+   gap: 0.3em;
+   margin-bottom: 0.8em; 
+}
+
+.card_mail {
+    display: block;
+    list-style:none;
+    padding: .3em;
+}
+
+.card_Birthday {
+    display: block;
+    list-style:none;
+    padding: .3em;
+}
+
+.card_btn_delete {
+    margin-left: auto;
+    height: 2.5em;
+    background-color: rgb(248, 72, 72);
+    display: block;
+
+}
+
+.card_btn_update {
+    top: 0;
+    margin-left: auto;
+    height: 2.5em;
+    background-color: #d5d5d6;
+    display: block;
+    
+}
+
+.card_btn {
+    display: grid;
+    gap: 10px 40px;
+
+    
+}

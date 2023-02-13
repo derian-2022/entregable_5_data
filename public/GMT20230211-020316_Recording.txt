@@ -1,0 +1,373 @@
+00:09:04	Luciano Facundo Tito Cedrón:	jajaja motomami motomami
+00:09:05	Miguel Angel:	jeje
+00:09:10	Miguel Angel:	que gamineria
+00:09:43	Oliver Rodriguez:	uy profe
+00:09:51	Cristian Norberto Perez:	Me siento muy ofendido profe jajaja, no mentira profe
+00:09:53	Oliver Rodriguez:	jjajaja
+00:10:34	Miguel Angel:	si el borrar los campos
+00:10:59	Cristian Norberto Perez:	el reset
+00:11:05	Miguel Angel:	reset
+00:11:06	Oliver Rodriguez:	reset
+00:11:11	Miguel Angel:	carpeta utils
+00:11:39	Max Cereceda:	email: "",  password: "",  first_name: "",  last_name: "",  birthday: ""}
+00:12:26	Derian Augusto Arias Ballesteros:	por buenas practicas
+00:12:29	Benjamin Flores:	const defaultValue = {
+  email: '',
+  password: '',
+  first_name: '',
+  last_name: '',
+  birthday: ''
+}
+
+export default defaultValue
+00:13:21	Miguel Angel:	cristian
+00:13:21	Derian Augusto Arias Ballesteros:	teo
+00:13:25	Derian Augusto Arias Ballesteros:	chakira
+00:13:26	Oliver Rodriguez:	ruben
+00:13:33	Derian Augusto Arias Ballesteros:	sha
+00:14:23	Alex Pacheco:	modifica
+00:14:24	Max Cereceda:	edita y actualiza los registros
+00:14:27	Oliver Rodriguez:	actualizar
+00:14:27	Derian Augusto Arias Ballesteros:	cambia
+00:14:29	Cristian Norberto Perez:	hay que enviar la info al form
+00:14:32	MILLER SUAREZ:	ditar el usuario creado
+00:14:57	Cristian Norberto Perez:	Pasar la info entre hermanos por medio del padre
+00:15:00	MILLER SUAREZ:	editar el usuario creado?
+00:15:25	Jamar Masias:	state
+00:15:28	Santiago Galván Martínez:	pasarlo al padre
+00:15:30	Derian Augusto Arias Ballesteros:	porps
+00:15:31	Max Cereceda:	pasarle al padre
+00:15:36	Alex Pacheco:	se crea un estado y se envía el estado y el set como prop
+00:15:46	Jamar Masias:	app
+00:15:49	Max Cereceda:	app
+00:15:52	Derian Augusto Arias Ballesteros:	app
+00:15:53	Cristian Norberto Perez:	App
+00:16:56	MILLER SUAREZ:	seteandolo?
+00:17:01	Cristian Norberto Perez:	mandamos por prop setUpdateInfo a card
+00:17:09	MILLER SUAREZ:	epa
+00:17:53	Cristian Norberto Perez:	onclick
+00:17:56	Max Cereceda:	un onclick
+00:18:46	Jeremi Castellano:	set
+00:18:47	Derian Augusto Arias Ballesteros:	setUpdateInf
+00:18:47	Cristian Norberto Perez:	setUpdateInfo
+00:18:51	Jamar Masias:	setupdateinfo (user.id
+00:18:58	Oliver Rodriguez:	user
+00:19:00	Derian Augusto Arias Ballesteros:	user
+00:19:01	Cristian Norberto Perez:	user.id
+00:19:03	Max Cereceda:	const handleUpdate = () => setUpdateInfo(user)
+00:19:11	Max Cereceda:	el user
+00:19:11	Jeremi Castellano:	user
+00:19:12	MILLER SUAREZ:	el user completo
+00:19:15	Santiago Galván Martínez:	sólo user
+00:19:16	Cristian Norberto Perez:	user completo perdon
+00:21:04	Cristian Norberto Perez:	mandarla al form
+00:21:07	Jeremi Castellano:	mandarla a form
+00:21:24	Cristian Norberto Perez:	uodateInfo
+00:21:31	Max Cereceda:	updateinfo
+00:22:10	Oliver Rodriguez:	el patch
+00:22:12	Derian Augusto Arias Ballesteros:	Submit
+00:22:12	MILLER SUAREZ:	hay que hacer una funcion
+00:22:21	Cristian Norberto Perez:	patch o put
+00:22:36	Max Cereceda:	ingresar al input
+00:22:39	Cristian Norberto Perez:	pintarla en el form
+00:22:39	Max Cereceda:	los inputs?
+00:23:01	Santiago Galván Martínez:	reset
+00:23:01	Oliver Rodriguez:	sumbmit
+00:23:02	Daniel Rojas:	reset
+00:23:06	Cristian Norberto Perez:	submit
+00:23:09	Oliver Rodriguez:	uy
+00:23:15	Cristian Norberto Perez:	sorriii
+00:23:29	Daniel Rojas:	reset(updateInfo)
+00:23:34	Jamar Masias:	update
+00:23:37	Max Cereceda:	updateino
+00:23:38	Heri Espinosa:	yo hablando desde hace rato y lo estaba mandando directo  a un compañero😅
+00:23:47	Max Cereceda:	Reacted to "yo hablando desde ha..." with 😂
+00:24:00	Heri Espinosa:	useEfect
+00:24:02	Jeremi Castellano:	useEffect?
+00:24:02	Luciano Facundo Tito Cedrón:	useEffect
+00:24:34	Heri Espinosa:	solo se ejecuta al nacer
+00:24:38	Derian Augusto Arias Ballesteros:	nace se renderiza
+00:24:38	Cristian Norberto Perez:	solo pinta al necer
+00:24:40	Max Cereceda:	al primer renderizado
+00:24:41	Jeremi Castellano:	solo se ejecutara al nacer
+00:24:56	Jeremi Castellano:	cada vez que cambia el valor
+00:24:57	Cristian Norberto Perez:	cuando cambie de valor tambien
+00:25:06	Cristian Norberto Perez:	updateInfo
+00:25:06	Heri Espinosa:	de update
+00:25:12	Santiago Galván Martínez:	updateInfo
+00:25:13	Jeremi Castellano:	de update
+00:25:14	Derian Augusto Arias Ballesteros:	del update
+00:25:28	Max Cereceda:	undefined
+00:25:34	Derian Augusto Arias Ballesteros:	undefined
+00:25:35	Cristian Norberto Perez:	niinguna
+00:25:52	Heri Espinosa:	condicional
+00:26:14	Max Cereceda:	si existe
+00:26:15	Cristian Norberto Perez:	updateInfo
+00:26:21	Derian Augusto Arias Ballesteros:	updateinf
+00:27:33	Santiago Galván Martínez:	en app.jsx
+00:27:41	Max Cereceda:	guardar los cambios
+00:27:43	Santiago Galván Martínez:	una function
+00:27:57	Jamar Masias:	axios.put
+00:28:02	Derian Augusto Arias Ballesteros:	axios
+00:28:30	Jamar Masias:	url data
+00:28:32	Santiago Galván Martínez:	id y data
+00:28:33	Heri Espinosa:	url
+00:28:34	Santiago Galván Martínez:	=
+00:28:35	Heri Espinosa:	y data
+00:28:36	Max Cereceda:	la url, data
+00:28:36	Santiago Galván Martínez:	?*
+00:29:57	Santiago Galván Martínez:	const url = `https://users-crud.academlo.tech/users/${id}/`
+00:30:21	Cristian Norberto Perez:	hay que pasarlo por parametro
+00:30:43	Derian Augusto Arias Ballesteros:	(id) ??
+00:30:45	Derian Augusto Arias Ballesteros:	id
+00:30:47	Cristian Norberto Perez:	getAllUser()
+00:30:52	Derian Augusto Arias Ballesteros:	getAllUsers
+00:30:53	Heri Espinosa:	data, id
+00:31:07	Max Cereceda:	del form
+00:31:10	Heri Espinosa:	desde el form
+00:31:10	Max Cereceda:	jajaj
+00:31:17	Derian Augusto Arias Ballesteros:	url
+00:31:18	Cristian Norberto Perez:	también por parametro
+00:31:51	Daniel Rojas:	getAllUsers()
+00:32:00	Heri Espinosa:	getAllUsers()
+00:32:05	Cristian Norberto Perez:	la función de todos los usuarios debajo del then
+00:32:07	Heri Espinosa:	hay que ponerlo en el then
+00:32:08	Daniel Rojas:	Va en el .then()
+00:32:31	Derian Augusto Arias Ballesteros:	trabaja con el then
+00:33:15	Max Cereceda:	falta usarlo
+00:33:18	Heri Espinosa:	mandarla como prop para el form
+00:33:21	Daniel Rojas:	En el form
+00:33:23	Derian Augusto Arias Ballesteros:	forn
+00:34:10	Daniel Rojas:	en el button
+00:34:20	Heri Espinosa:	en el onsumit
+00:34:20	Santiago Galván Martínez:	créate.
+00:34:20	Cristian Norberto Perez:	en submit
+00:34:49	Jeremi Castellano:	:
+00:34:50	Heri Espinosa:	con un condicional
+00:34:56	Santiago Galván Martínez:	if updateInfo
+00:34:57	Cristian Norberto Perez:	if, else
+00:35:00	Derian Augusto Arias Ballesteros:	if
+00:35:01	Heri Espinosa:	si hay info actualiza
+00:35:03	Heri Espinosa:	sino crea
+00:35:06	Santiago Galván Martínez:	if updateInfo
+00:35:38	Heri Espinosa:	reset
+00:35:41	Santiago Galván Martínez:	updateUserById
+00:35:49	Jeremi Castellano:	update
+00:35:51	Max Cereceda:	update
+00:35:54	Cristian Norberto Perez:	update
+00:35:54	Heri Espinosa:	update
+00:35:55	Alejandro Aguilar:	updateuserbyid
+00:35:59	Max Cereceda:	create
+00:36:31	Heri Espinosa:	data y id
+00:36:34	Max Cereceda:	id
+00:36:36	Jamar Masias:	idy data
+00:36:37	Derian Augusto Arias Ballesteros:	id
+00:36:39	Derian Augusto Arias Ballesteros:	data
+00:36:42	Cristian Norberto Perez:	data
+00:36:54	Santiago Galván Martínez:	en el form
+00:37:01	Cristian Norberto Perez:	user.id?
+00:37:05	Heri Espinosa:	updateUser.id
+00:37:30	Heri Espinosa:	yo lo tengo como updateUser
+00:37:31	Heri Espinosa:	perdon
+00:37:56	Heri Espinosa:	la del form
+00:37:57	Max Cereceda:	data
+00:38:02	Jeremi Castellano:	data
+00:38:05	Derian Augusto Arias Ballesteros:	data
+00:38:08	Jamar Masias:	data
+00:38:32	Max Cereceda:	el texto en el boton
+00:38:38	Max Cereceda:	??
+00:38:59	Jeremi Castellano:	vacio
+00:39:00	Cristian Norberto Perez:	defaultValues?
+00:39:05	Max Cereceda:	vaciar
+00:39:06	Heri Espinosa:	defaultValues()
+00:39:08	Daniel Rojas:	updateInfo()
+00:39:14	Derian Augusto Arias Ballesteros:	rest
+00:39:20	Daniel Rojas:	updateInfo(null)
+00:39:26	Daniel Rojas:	?
+00:39:34	Alejandro Aguilar:	objeto
+00:39:43	Daniel Rojas:	Funcion
+00:39:46	Heri Espinosa:	prop
+00:39:47	Cristian Norberto Perez:	estado
+00:39:59	Alejandro Aguilar:	seteando
+00:40:00	Cristian Norberto Perez:	set
+00:40:01	Heri Espinosa:	set
+00:40:01	Max Cereceda:	con set
+00:40:04	Emerson Wilson Condori Yujra:	set
+00:40:08	Max Cereceda:	nada
+00:40:08	Cristian Norberto Perez:	naranja
+00:40:09	Jeremi Castellano:	undefine
+00:40:10	Alejandro Aguilar:	La del usurario
+00:40:57	Max Cereceda:	😁
+00:41:44	Miguel Angel:	jjejeje, solo clasicos
+00:42:13	Max Cereceda:	tiene que tener formato de email
+00:42:57	Heri Espinosa:	una condicion tambien
+00:42:58	Max Cereceda:	un condicional
+00:42:59	Santiago Galván Martínez:	renderizado condicional
+00:43:02	Daniel Rojas:	<button>{ updateInfo ? 'Update' : 'Create'} user</button>
+00:43:17	Max Cereceda:	Reacted to "<button>{ updateInfo..." with 🤑
+00:43:24	Heri Espinosa:	updateInfo
+00:43:30	Max Cereceda:	se nos adelanto
+00:44:16	Miguel Angel:	reset
+00:44:45	Jeremi Castellano:	profe al actualizar un usuario se me queda el botón en update
+00:44:59	Daniel Rojas:	<button type='reset'>Reset</button>Profe use este boton
+00:45:15	Jeremi Castellano:	si si lo coloque
+00:45:24	Jeremi Castellano:	sip
+00:45:27	Heri Espinosa:	pork cuando actualizo algo se me borra todo de la API
+00:45:37	Jeremi Castellano:	aaah ya vi
+00:45:39	Jeremi Castellano:	lo puse donde no era xd
+00:45:50	Heri Espinosa:	cuando actualizo algo del codigo
+00:46:29	Heri Espinosa:	le tengo el handle
+00:47:17	Jeremi Castellano:	siii
+00:47:20	Luciano Facundo Tito Cedrón:	Si profe de una
+00:47:20	Derian Augusto Arias Ballesteros:	i porfe
+00:47:24	Jeremi Castellano:	enseñenos hacer un modal profe
+00:47:27	Alejandro Aguilar:	Messi rve
+00:47:36	Jeremi Castellano:	nos quedamos un ratito mas
+00:47:38	Derian Augusto Arias Ballesteros:	los errores se resuleven volviendo a ver el video
+00:47:50	Max Cereceda:	Reacted to " los errores se resu..." with 😁
+00:47:59	Derian Augusto Arias Ballesteros:	resuelven
+00:48:08	Max Cereceda:	Replying to "resuelven"
+
+ya nos exhibiste
+00:48:17	Derian Augusto Arias Ballesteros:	jajajja
+00:48:17	Max Cereceda:	Reacted to "jajajja" with 😂
+00:48:19	Derian Augusto Arias Ballesteros:	no nas
+00:49:12	Max Cereceda:	list style
+00:49:14	Miguel Angel:	profe porfavor deje ese reset unos segunditos
+00:49:29	Miguel Angel:	plis
+00:49:33	Benjamin Flores:	/* --- RESET ---- */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0
+}
+img {
+  display: block;
+  width: 100%;
+}
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  border: none;
+}
+input {
+  outline: 0;
+}
+00:49:44	Miguel Angel:	tenkiu
+00:52:11	Derian Augusto Arias Ballesteros:	todo rayyy
+00:52:13	Jamar Masias:	nos quedamos no se preocupe
+00:52:16	Luciano Facundo Tito Cedrón:	no hay drama profe, nos quedamos todo lo que sea necesario
+00:52:17	Luciano Facundo Tito Cedrón:	con gusto
+00:52:32	Max Cereceda:	hasta las ultimas 😆
+00:52:32	Jamar Masias:	ademas nocreo que tengamos planes a esta hora hahah
+00:52:46	Max Cereceda:	es viernes y el cuerpo lo sabe
+00:53:22	Diego Jaldin:	Y 1 horita mañana para terminarlo bien profe? No se anima?
+00:54:09	Derian Augusto Arias Ballesteros:	Super MAXXXX
+00:54:23	Max Cereceda:	Reacted to "Super MAXXXX" with 😁
+00:59:06	Benjamin Flores:	background-color: #555A88;
+01:01:08	Cristian Norberto Perez:	Pongalo en chino asi ya nos perdemos del todo jajaja
+01:01:41	Alejandro Aguilar:	Haha la buena de Karla
+01:01:47	Benjamin Flores:	@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+01:03:30	Cristian Norberto Perez:	hidden
+01:03:41	Alejandro Aguilar:	ocultation
+01:04:02	Alejandro Aguilar:	Mentiras profe, esa palabra no existe haha
+01:05:52	Max Cereceda:	opacidad?
+01:06:20	Cristian Norberto Perez:	le dio la chiripiorca
+01:07:19	Max Cereceda:	excelent
+01:08:00	Guillermo Benitez:	filter blur?
+01:08:00	Daniel Rojas:	filter: blur()
+01:08:45	Heri Espinosa:	el efecto es el blur
+01:09:16	Heri Espinosa:	backdrop-filter: blur(10px);
+01:09:48	Max Cereceda:	grande se ve rebueno
+01:09:56	Jeremi Castellano:	uuuffff
+01:09:59	Jeremi Castellano:	tenia tiempo buscando eso
+01:10:36	Heri Espinosa:	jajajaja… yo soy asi mismo, voy arreglando todo lo que no me gusta desde que veo algo mal me desvio
+01:10:48	Luciano Facundo Tito Cedrón:	si de una
+01:10:56	Jamar Masias:	si
+01:10:58	Derian Augusto Arias Ballesteros:	i un transtition
+01:12:24	Jeremi Castellano:	buenardo
+01:12:28	Heri Espinosa:	esa no la sabia no
+01:12:39	Cristian Norberto Perez:	Cosa hermosa, cosa bien hecho dijo Don Ramon
+01:12:46	Heri Espinosa:	un grande
+01:12:53	Max Cereceda:	x2 yo lo hice con estados y renderizado condicional ajjaaja
+01:14:25	Heri Espinosa:	un condicional
+01:15:40	Cristian Norberto Perez:	carta fuego
+01:16:08	Benjamin Flores:	className={`app__form ${isOpen && 'app__form-visible'}`
+01:17:38	Max Cereceda:	setIsOpen()
+01:17:50	Cristian Norberto Perez:	setIsOpen(true)
+01:17:52	Max Cereceda:	true
+01:18:32	Guillermo Benitez:	ok i like it picasso
+01:18:42	Max Cereceda:	false
+01:18:46	Heri Espinosa:	false
+01:18:47	Jeremi Castellano:	false
+01:19:16	Heri Espinosa:	create
+01:19:20	Eliseo Torres:	then
+01:19:22	Max Cereceda:	cuando termino de crear
+01:19:24	Cristian Norberto Perez:	Al dar click, enter o con la cruz
+01:19:24	Luciano Facundo Tito Cedrón:	luego de oprimir create
+01:19:40	Max Cereceda:	en el then
+01:19:41	Miguel Angel:	cuando crea o cuando da cancelar
+01:20:24	Max Cereceda:	submit
+01:21:17	Jeremi Castellano:	a mi no me abre el form :C
+01:21:40	Heri Espinosa:	hay que pasarle el mismo handle
+01:21:50	Heri Espinosa:	card
+01:22:26	Max Cereceda:	onclicj en el botn
+01:22:29	Heri Espinosa:	handleUpdate
+01:22:31	Jamar Masias:	21
+01:22:34	Max Cereceda:	update
+01:22:37	Jeremi Castellano:	en el update
+01:23:12	Heri Espinosa:	una maravilla
+01:23:20	Luciano Facundo Tito Cedrón:	tremendo
+01:23:30	Max Cereceda:	grande
+01:23:31	Heri Espinosa:	hoy no duermo… a darle
+01:23:41	Derian Augusto Arias Ballesteros:	x2
+01:24:17	Luciano Facundo Tito Cedrón:	siii
+01:24:17	Jeremi Castellano:	de una prife
+01:24:18	Heri Espinosa:	dele a la X
+01:24:19	Jeremi Castellano:	profe
+01:24:19	Derian Augusto Arias Ballesteros:	si
+01:24:19	Luciano Facundo Tito Cedrón:	la x porga
+01:24:21	Luciano Facundo Tito Cedrón:	porfa
+01:24:21	Cristian Norberto Perez:	Muy lindo verlo trabajar profe
+01:24:22	Jamar Masias:	si
+01:24:24	sara ospina:	si
+01:24:32	Derian Augusto Arias Ballesteros:	la X la Y y hasta la Z
+01:24:35	Derian Augusto Arias Ballesteros:	jajaja
+01:24:42	Heri Espinosa:	😂
+01:24:54	Jamar Masias:	es que la pasion que le pone motiva
+01:25:14	Cristian Norberto Perez:	con position relative y absolute se me ocurre
+01:25:21	Max Cereceda:	✖
+01:25:27	Rubén Hernández:	Reacted to "con position relativ..." with 👏
+01:25:58	Heri Espinosa:	estatico
+01:26:33	Heri Espinosa:	font-zise
+01:26:48	Cristian Norberto Perez:	cursor pointer
+01:27:04	Heri Espinosa:	darkred
+01:27:14	Heri Espinosa:	hover
+01:27:28	Cristian Norberto Perez:	Si la hacermos la hacemos bien jajaja
+01:28:10	Heri Espinosa:	excelent
+01:28:42	Heri Espinosa:	pasarle la funtion
+01:29:04	Derian Augusto Arias Ballesteros:	super
+01:29:07	Heri Espinosa:	bien
+01:29:13	Max Cereceda:	genial
+01:29:31	Heri Espinosa:	el estado
+01:30:06	Heri Espinosa:	y el handle
+01:30:49	Derian Augusto Arias Ballesteros:	super
+01:30:51	Heri Espinosa:	🥳🥳
+01:30:54	Jamar Masias:	si señor
+01:30:59	Jeremi Castellano:	profe a mi no se me acomodo el form
+01:31:01	Derian Augusto Arias Ballesteros:	😍
+01:31:06	Max Cereceda:	eso corrige mi bug 😁
+01:31:09	Heri Espinosa:	entendimos a VAPOR
+01:31:13	Cristian Norberto Perez:	se a ustedes, pero a mi ya me da miedo el próximo entregable
+01:31:14	Luciano Facundo Tito Cedrón:	bellisimo
+01:31:20	Jeremi Castellano:	sigue estando asi
+01:31:20	Rubén Hernández:	😳
+01:31:27	Max Cereceda:	profe como podemos captura el elemento eliminado
+01:31:28	Max Cereceda:	?
+01:31:31	Derian Augusto Arias Ballesteros:	Muchas gracias profe
+01:31:56	Roxana Rodríguez Revolleda:	Gracias profe, hasta el lunes, cuidese
+01:32:01	Luciano Facundo Tito Cedrón:	Gracias profe
